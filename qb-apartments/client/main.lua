@@ -696,7 +696,7 @@ end)
 
 RegisterNetEvent('apartments:client:ChangeOutfit', function()
     TriggerServerEvent('InteractSound_SV:PlayOnSource', 'Clothes1', 0.4)
-    TriggerEvent('qb-clothing:client:openOutfitMenu')
+    TriggerEvent('illenium-appearance:client:openOutfitMenu')
 end)
 
 RegisterNetEvent('apartments:client:Logout', function()
